@@ -19,5 +19,5 @@ PASSWORD=<admin passowrd for above email>
 
 
 The requests are sent synchronously so even if you put 1 ms as the wait time the fastest 
-it can run subsequent requests is however long it takes to get a response on the previously request.
+it can run subsequent requests is however long it takes to get a response for the previous request.
 This currently only supports domestic requests and one static line item.
