@@ -40,7 +40,7 @@ const generateShipmentRequest = () => {
       "ship_via" : "DHL Parcel Ground",
       "container_type" : "BOX",
       "total_packages" : 1,
-      "total_value" : Math.round(Math.random() * (500 - 100000) + 500),
+      "total_value" : Math.round(Math.random() * (100000 - 500) + 500),
       "currency" : "USD",
       "weight" : {
         "value" : 1.0,
