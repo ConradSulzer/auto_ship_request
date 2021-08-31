@@ -18,7 +18,7 @@ const axiosConfig = {
 }
 
 const askUserInputs = () => {
-  rl.question("How many shipment request should I create? ", function(requests) {
+  rl.question("How many shipment requests should I create? ", function(requests) {
     rl.question("How long should I wait between request (ms)? ", function(wait) {
       fireOffRequest(requests, wait)
       rl.close()
